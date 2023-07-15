@@ -1,0 +1,80 @@
+header {
+    width: 100%;
+}
+
+body {
+    color: black;
+}
+
+.bodyIndex{
+    background-color: tomato;    
+}
+
+.bodyCactus{
+    background-color: rgb(69, 69, 174);    
+}
+
+.bodyImma{
+    background-color: pink;    
+}
+
+.bodyDandee{
+    background-color: orange;    
+}
+
+.bodySophie{
+    background-color: rgb(226, 217, 91);    
+}
+
+.contenedorLogo {
+    position: fixed;
+    top: 60px;
+    right: 1%;
+}
+
+.contenedorLogo img {
+    width: 40%;
+    height: auto;
+}
+
+.spanLinkIg {
+    font-style: bold;
+    color: black;
+}
+
+.spanLinkCactus {
+    color: rgb(69, 69, 174);
+}
+
+.spanLinkImma {
+    color: pink;
+}
+
+.spanLinkDandee {
+    color: orange;
+}
+
+.spanLinkSophie {
+    color: rgb(226, 217, 91);
+}
+
+.spanLink7ins {
+    color: white;
+}
+
+.spanLinkHome {
+    color: tomato;
+}
+
+@media (max-width: 576px) {
+    .contenedorLogo {
+        position: fixed;
+        top: 10%;
+        left: 70%;
+    }
+
+    .contenedorLogo img {
+        width: 30%;
+        height: auto;
+    }
+}
