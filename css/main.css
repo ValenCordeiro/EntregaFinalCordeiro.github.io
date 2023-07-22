@@ -3,6 +3,10 @@ header {
 }
 
 body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
     color: black;
 }
 
@@ -65,6 +69,50 @@ body {
 .spanLinkHome {
     color: tomato;
 }
+
+.contenedorImagenes {
+    position: relative; 
+    display: flex;
+    left: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.contenedorImagenesSophie {
+    position: relative; 
+    display: flex;
+    left: 250px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.contenedorImagenes img {
+    border: 2px solid black;
+    height: auto;
+    object-fit: contain;
+}
+
+.contenedorImagenesSophie img {
+    border: 2px solid black;
+    height: auto;
+    object-fit: contain;
+}
+
+.contenedorTexto {
+    left: 100px;
+    position: relative; 
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.contenedorTextoDandee {
+    top: 100px;
+    position: relative; 
+    display: flex;
+    overflow: hidden;
+}
+
 
 @media (max-width: 576px) {
     .contenedorLogo {
