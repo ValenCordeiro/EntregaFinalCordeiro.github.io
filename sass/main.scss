@@ -54,7 +54,7 @@ body {
         overflow: hidden;
 
         img {
-            border: 2px solid black;
+            border: 5px solid black;
             height: 200px;
             object-fit: contain;
         }
@@ -140,5 +140,27 @@ body {
     .contenedorLogo img {
         width: 30%;
         height: auto;
+    }
+
+    .contenedorImagenes {
+        position: relative;
+        display: flex;
+        left: 10px;
+        width: 100%;
+        overflow: hidden;
+
+        img {
+            border: 5px solid black;
+            height: 200px;
+            object-fit: contain;
+        }
+    }
+
+    .contenedorTexto {
+        left: 10px;
+        position: relative;
+        display: flex;
+        width: 100%;
+        overflow: hidden;
     }
 }
