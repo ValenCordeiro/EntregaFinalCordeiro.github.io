@@ -1,0 +1,144 @@
+/* Estilo general */
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    color: black;
+
+    header {
+        width: 100%;
+
+        .contenedorLogo {
+            position: fixed;
+            top: 60px;
+            right: 1%;
+
+            img {
+                width: 40%;
+                height: auto;
+            }
+        }
+    }
+
+    .spanLinkHome {
+        color: tomato;
+    }
+
+    .spanLink7ins {
+        color: white;
+    }
+
+    .spanLinkCactus {
+        color: rgb(69, 69, 174);
+    }
+
+    .spanLinkImma {
+        color: pink;
+    }
+
+    .spanLinkDandee {
+        color: orange;
+    }
+
+    .spanLinkSophie {
+        color: rgb(226, 217, 91);
+    }
+
+    .contenedorImagenes {
+        position: relative;
+        display: flex;
+        left: 100px;
+        width: 100%;
+        overflow: hidden;
+
+        img {
+            border: 2px solid black;
+            height: 200px;
+            object-fit: contain;
+        }
+    }
+
+    .contenedorTexto {
+        left: 100px;
+        position: relative;
+        display: flex;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .spanLinkIg {
+        font-style: bold;
+        color: black;
+    }
+}
+
+/* Estilo Index */
+
+.bodyIndex {
+    background-color: tomato;
+}
+
+
+/* Estilo Cactus */
+
+.bodyCactus {
+    background-color: rgb(69, 69, 174);
+}
+
+/* Estilo ImmA */
+
+.bodyImma {
+    background-color: pink;
+}
+
+
+/* Estilo Dandee */
+
+.bodyDandee {
+    background-color: orange;
+
+    .contenedorTextoDandee {
+        top: 100px;
+        position: relative;
+        display: flex;
+        overflow: hidden;
+    }
+}
+
+/* Estilo Sophie */
+
+.bodySophie {
+    background-color: rgb(226, 217, 91);
+
+    .contenedorImagenesSophie {
+        position: relative;
+        display: flex;
+        left: 250px;
+        width: 100%;
+        overflow: hidden;
+
+        img {
+            border: 2px solid black;
+            height: auto;
+            object-fit: contain;
+        }
+
+    }
+}
+
+/* Media Query */
+
+@media (max-width: 576px) {
+    .contenedorLogo {
+        position: fixed;
+        top: 10%;
+        left: 70%;
+    }
+
+    .contenedorLogo img {
+        width: 30%;
+        height: auto;
+    }
+}

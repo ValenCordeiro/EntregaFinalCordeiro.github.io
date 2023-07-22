@@ -1,0 +1,119 @@
+/* Estilo general */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+  color: black;
+}
+body header {
+  width: 100%;
+}
+body header .contenedorLogo {
+  position: fixed;
+  top: 60px;
+  right: 1%;
+}
+body header .contenedorLogo img {
+  width: 40%;
+  height: auto;
+}
+body .spanLinkHome {
+  color: tomato;
+}
+body .spanLink7ins {
+  color: white;
+}
+body .spanLinkCactus {
+  color: rgb(69, 69, 174);
+}
+body .spanLinkImma {
+  color: pink;
+}
+body .spanLinkDandee {
+  color: orange;
+}
+body .spanLinkSophie {
+  color: rgb(226, 217, 91);
+}
+body .contenedorImagenes {
+  position: relative;
+  display: flex;
+  left: 100px;
+  width: 100%;
+  overflow: hidden;
+}
+body .contenedorImagenes img {
+  border: 2px solid black;
+  height: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+body .contenedorTexto {
+  left: 100px;
+  position: relative;
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+body .spanLinkIg {
+  font-style: bold;
+  color: black;
+}
+
+/* Estilo Index */
+.bodyIndex {
+  background-color: tomato;
+}
+
+/* Estilo Cactus */
+.bodyCactus {
+  background-color: rgb(69, 69, 174);
+}
+
+/* Estilo ImmA */
+.bodyImma {
+  background-color: pink;
+}
+
+/* Estilo Dandee */
+.bodyDandee {
+  background-color: orange;
+}
+.bodyDandee .contenedorTextoDandee {
+  top: 100px;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+
+/* Estilo Sophie */
+.bodySophie {
+  background-color: rgb(226, 217, 91);
+}
+.bodySophie .contenedorImagenesSophie {
+  position: relative;
+  display: flex;
+  left: 250px;
+  width: 100%;
+  overflow: hidden;
+}
+.bodySophie .contenedorImagenesSophie img {
+  border: 2px solid black;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+/* Media Query */
+@media (max-width: 576px) {
+  .contenedorLogo {
+    position: fixed;
+    top: 10%;
+    left: 70%;
+  }
+  .contenedorLogo img {
+    width: 30%;
+    height: auto;
+  }
+}/*# sourceMappingURL=main.css.map */
