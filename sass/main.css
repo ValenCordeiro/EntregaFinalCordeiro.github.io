@@ -1,22 +1,15 @@
 /* Estilo general */
 body {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  height: 100%;
   color: black;
 }
-body header {
-  width: 100%;
-}
 body header .contenedorLogo {
-  position: fixed;
-  top: 60px;
-  right: 1%;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  padding: 5px;
 }
 body header .contenedorLogo img {
-  width: 40%;
-  height: auto;
+  width: 10%;
 }
 body .spanLinkHome {
   color: tomato;
@@ -37,24 +30,15 @@ body .spanLinkSophie {
   color: rgb(226, 217, 91);
 }
 body .contenedorImagenes {
-  position: relative;
   display: flex;
-  left: 100px;
-  width: 100%;
-  overflow: hidden;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 body .contenedorImagenes img {
-  border: 5px solid black;
-  height: 200px;
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-body .contenedorTexto {
-  left: 100px;
-  position: relative;
-  display: flex;
-  width: 100%;
-  overflow: hidden;
+  max-width: 100%;
+  height: auto;
 }
 body .spanLinkIg {
   font-style: bold;
@@ -65,15 +49,27 @@ body .spanLinkIg {
 .bodyIndex {
   background-color: tomato;
 }
+.bodyIndex footer {
+  padding-top: 10px;
+  background-color: rgba(175, 47, 25, 0.704);
+}
 
 /* Estilo Cactus */
 .bodyCactus {
   background-color: rgb(69, 69, 174);
 }
+.bodyCactus footer {
+  padding-top: 10px;
+  background-color: rgb(50, 50, 185);
+}
 
 /* Estilo ImmA */
 .bodyImma {
   background-color: pink;
+}
+.bodyImma footer {
+  padding-top: 10px;
+  background-color: rgb(241, 137, 154);
 }
 
 /* Estilo Dandee */
@@ -85,6 +81,10 @@ body .spanLinkIg {
   position: relative;
   display: flex;
   overflow: hidden;
+}
+.bodyDandee footer {
+  padding-top: 10px;
+  background-color: rgba(175, 47, 25, 0.704);
 }
 
 /* Estilo Sophie */
@@ -104,36 +104,7 @@ body .spanLinkIg {
   -o-object-fit: contain;
      object-fit: contain;
 }
-
-/* Media Query */
-@media (max-width: 576px) {
-  .contenedorLogo {
-    position: fixed;
-    top: 10%;
-    left: 70%;
-  }
-  .contenedorLogo img {
-    width: 30%;
-    height: auto;
-  }
-  .contenedorImagenes {
-    position: relative;
-    display: flex;
-    left: 10px;
-    width: 100%;
-    overflow: hidden;
-  }
-  .contenedorImagenes img {
-    border: 5px solid black;
-    height: 200px;
-    -o-object-fit: contain;
-       object-fit: contain;
-  }
-  .contenedorTexto {
-    left: 10px;
-    position: relative;
-    display: flex;
-    width: 100%;
-    overflow: hidden;
-  }
+.bodySophie footer {
+  padding-top: 10px;
+  background-color: rgb(220, 208, 53);
 }/*# sourceMappingURL=main.css.map */

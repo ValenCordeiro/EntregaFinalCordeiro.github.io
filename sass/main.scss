@@ -1,23 +1,18 @@
 /* Estilo general */
 
 body {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    height: 100%;
     color: black;
 
     header {
-        width: 100%;
 
         .contenedorLogo {
-            position: fixed;
-            top: 60px;
-            right: 1%;
+            width: 100%;
+            display: flex;
+            justify-content: right;
+            padding: 5px;
 
             img {
-                width: 40%;
-                height: auto;
+                width: 10%;
             }
         }
     }
@@ -47,25 +42,16 @@ body {
     }
 
     .contenedorImagenes {
-        position: relative;
         display: flex;
-        left: 100px;
-        width: 100%;
-        overflow: hidden;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px;
+        margin-bottom: 20px;
 
         img {
-            border: 5px solid black;
-            height: 200px;
-            object-fit: contain;
+            max-width: 100%;
+            height: auto;
         }
-    }
-
-    .contenedorTexto {
-        left: 100px;
-        position: relative;
-        display: flex;
-        width: 100%;
-        overflow: hidden;
     }
 
     .spanLinkIg {
@@ -78,6 +64,10 @@ body {
 
 .bodyIndex {
     background-color: tomato;
+    footer {
+        padding-top: 10px;
+        background-color: rgba(175, 47, 25, 0.704);
+        }
 }
 
 
@@ -85,12 +75,20 @@ body {
 
 .bodyCactus {
     background-color: rgb(69, 69, 174);
+    footer {
+        padding-top: 10px;
+        background-color: rgb(50, 50, 185);
+        }
 }
 
 /* Estilo ImmA */
 
 .bodyImma {
     background-color: pink;
+    footer {
+        padding-top: 10px;
+        background-color: rgb(241, 137, 154);
+        }
 }
 
 
@@ -105,6 +103,11 @@ body {
         display: flex;
         overflow: hidden;
     }
+
+    footer {
+        padding-top: 10px;
+        background-color: rgba(175, 47, 25, 0.704);
+        }
 }
 
 /* Estilo Sophie */
@@ -126,41 +129,9 @@ body {
         }
 
     }
-}
 
-/* Media Query */
-
-@media (max-width: 576px) {
-    .contenedorLogo {
-        position: fixed;
-        top: 10%;
-        left: 70%;
-    }
-
-    .contenedorLogo img {
-        width: 30%;
-        height: auto;
-    }
-
-    .contenedorImagenes {
-        position: relative;
-        display: flex;
-        left: 10px;
-        width: 100%;
-        overflow: hidden;
-
-        img {
-            border: 5px solid black;
-            height: 200px;
-            object-fit: contain;
+    footer {
+        padding-top: 10px;
+        background-color: rgb(220, 208, 53);
         }
-    }
-
-    .contenedorTexto {
-        left: 10px;
-        position: relative;
-        display: flex;
-        width: 100%;
-        overflow: hidden;
-    }
 }
